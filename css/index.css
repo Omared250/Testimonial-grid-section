@@ -21,7 +21,7 @@ main {
     "testimonial1 testimonial1 testimonial2 testimonial5"
     "testimonial3 testimonial4 testimonial4 testimonial5";
     border-radius: 10px;
-    box-shadow: 2px 2px 2px 1px rgba(94, 92, 92, 0.5);
+    box-shadow: 10px 20px 12px 5px rgba(100, 99, 99, 0.5);
     background-color: hsl(0, 0%, 81%);
 }
 
@@ -29,7 +29,7 @@ img {
     width: 50px;
     height: 50px;
     margin: 5px;
-    border-radius: 49%;
+    border-radius: 50%;
 }
 
 /*-----testimonial header setup-----*/
