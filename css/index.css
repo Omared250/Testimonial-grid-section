@@ -25,6 +25,32 @@ main {
     background-color: hsl(0, 0%, 81%);
 }
 
+@media(max-width: 700px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "testimonial1 testimonial2"
+        "testimonial3 testimonial4"
+        "testimonial5 testimonial5";
+    }
+
+}
+
+@media(max-width: 600px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: 
+        "testimonial1"
+        "testimonial2"
+        "testimonial3"
+        "testimonial4"
+        "testimonial5";
+    }
+
+}
+
 img {
     width: 50px;
     height: 50px;
@@ -41,10 +67,12 @@ img {
 
 .testimonial-name {
     display: grid;
+    position: relative;
     width: 100%;
     height: 50px;
     margin-top: 6px;
     padding-left: 5px;
+    z-index: 3;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
 }
@@ -85,6 +113,24 @@ img {
     height: 100px;
     z-index: 1;
     border-radius: 0px;
+}
+
+@media(max-width: 900px) {
+    #box1 #logo {
+        left: 25%;
+    }
+}
+
+@media(max-width: 700px) {
+    #box1 #logo {
+        left: 25%;
+    }
+}
+
+@media(max-width: 600px) {
+    #box1 #logo {
+        left: 60%;
+    }
 }
 
 #box1 .p1 {
