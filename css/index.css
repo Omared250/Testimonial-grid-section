@@ -66,6 +66,8 @@ img {
 
 /*---individual testimonial----*/
 
+/*---box one-----*/
+
 #box1 {
     padding: 10px 20px;
     max-width: 100%;
@@ -73,6 +75,16 @@ img {
     border-radius: 10px;
     text-align: justify;
     background-color: hsl(263, 55%, 52%);
+}
+
+#box1 #logo {
+    position: absolute;
+    left: 34%;
+    top: 8%;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    border-radius: 0px;
 }
 
 #box1 .p1 {
@@ -84,6 +96,8 @@ img {
 }
 
 #box1 .firts-p-testimonial {
+    position: relative;
+    z-index: 2;
     text-align: left;
     color: hsl(0, 0%, 100%);
     font-size: 15px;
@@ -94,6 +108,8 @@ img {
     color: rgba(100%, 100%, 100%, 0.5);
     font-weight: 500;
 }
+
+/*---box two-----*/
 
 #box2 {
     padding: 10px 20px;
@@ -124,6 +140,8 @@ img {
     font-weight: 500;
 }
 
+/*---box three-----*/
+
 #box3 {
     padding: 10px 20px;
     max-width: 100%;
@@ -152,6 +170,8 @@ img {
     color: rgba(24, 23, 66, 0.5);
     font-weight: 500;
 }
+
+/*---box four-----*/
 
 #box4 {
     padding: 10px 20px;
@@ -183,6 +203,8 @@ img {
     font-weight: 500;
 }
 
+/*---box five-----*/
+
 #box5 {
     padding: 10px 20px;
     max-width: 100%;
@@ -211,3 +233,5 @@ img {
     color: rgba(24, 23, 66, 0.5);
     font-weight: 500;
 }
+
+/*----end individual testimonial area----*/
