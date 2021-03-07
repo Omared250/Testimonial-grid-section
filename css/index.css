@@ -3,6 +3,7 @@
 html {
     font-size: 13px;
     font-family: Barlow+Semi+Condense, sans-serif;
+    background-color: hsl(0, 0%, 81%);
 }
 
 /*-----main general setup-------*/
@@ -12,15 +13,16 @@ main {
     width: 90%;
     height: 80vh;
     max-width: 100%;
-    margin: auto;
+    margin: 5% 5%;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
     grid-template-areas: 
     "testimonial1 testimonial1 testimonial2 testimonial5"
     "testimonial3 testimonial4 testimonial4 testimonial5";
     border-radius: 10px;
     box-shadow: 2px 2px 2px 1px rgba(94, 92, 92, 0.5);
+    background-color: hsl(0, 0%, 81%);
 }
 
 img {
@@ -28,7 +30,6 @@ img {
     height: 50px;
     margin: 5px;
     border-radius: 49%;
-    border: solid 3px violet;
 }
 
 /*-----testimonial header setup-----*/
@@ -52,12 +53,14 @@ img {
     grid-row: 1/2;
     align-self: end;
     margin-top: 8px;
+    font-weight: 600;
 }
 
 .p2 {
     grid-row: 2/3;
     align-self: start;
     margin-top: -10px;
+    font-weight: 500;
 }
 
 /*---individual testimonial----*/
@@ -68,7 +71,7 @@ img {
     grid-area: testimonial1;
     border-radius: 10px;
     text-align: justify;
-    background-color: salmon;
+    background-color: hsl(263, 55%, 52%);
 }
 
 #box2 {
@@ -77,7 +80,7 @@ img {
     grid-area: testimonial2;
     border-radius: 10px;
     text-align: justify;
-    background-color: salmon;
+    background-color: hsl(217, 19%, 35%);
 }
 
 #box3 {
@@ -86,7 +89,7 @@ img {
     grid-area: testimonial3;
     border-radius: 10px;
     text-align: justify;
-    background-color: salmon;
+    background-color: hsl(0, 0%, 100%);
 }
 
 #box4 {
@@ -95,7 +98,7 @@ img {
     grid-area: testimonial4;
     border-radius: 10px;
     text-align: justify;
-    background-color: salmon;
+    background-color: hsl(219, 29%, 14%);
 }
 
 #box5 {
@@ -104,5 +107,5 @@ img {
     grid-area: testimonial5;
     border-radius: 10px;
     text-align: justify;
-    background-color: salmon;
+    background-color: hsl(0, 0%, 100%);
 }
