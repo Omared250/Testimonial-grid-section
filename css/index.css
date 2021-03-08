@@ -13,7 +13,7 @@ main {
     width: 90%;
     height: 80%;
     max-width: 100%;
-    margin: 4% 5%;
+    margin: 3% 5%;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
@@ -40,7 +40,7 @@ main {
 @media(max-width: 600px) {
     main {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: 1fr 210px 200px 290px 1fr;
         grid-template-areas: 
         "testimonial1"
         "testimonial2"
@@ -282,4 +282,3 @@ img {
 
 /*----end individual testimonial area----*/
 
-/*----footer area----*/
